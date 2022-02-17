@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Form from './components/Form';
+// import Form from './components/Form';
 import Profile from './components/Profile';
 import Repos from './components/Repos';
 
@@ -45,7 +45,7 @@ class App extends Component {
       <div>
         <div>
           <Header/>
-          <Form getUserInfo={this.getUserInfo}/>
+          {/* <Form getUserInfo={this.getUserInfo}/> */}
           <div>
             <Profile profile={this.state.profile} />
             <Repos repos={this.state.repos}/>
